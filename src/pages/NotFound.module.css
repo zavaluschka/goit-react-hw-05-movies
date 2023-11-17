@@ -1,0 +1,21 @@
+.notFoundWrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+}
+
+.notFoundText {
+    color:#eea94f;
+    font-size: 32px;
+}
+
+.notFoundLink {
+    color: #eea94f;
+    text-decoration: underline;
+    transition: color 300ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.notFoundLink:hover,
+.notFoundLink:focus {
+    color: #f4f2f0;
+}
